@@ -35,7 +35,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(339, 166);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 73);
+            this.button1.Size = new System.Drawing.Size(79, 85);
             this.button1.TabIndex = 0;
             this.button1.Text = "WASH using Washing Machine";
             this.button1.UseVisualStyleBackColor = true;
