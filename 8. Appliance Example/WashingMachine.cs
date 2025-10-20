@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace _8.Appliance_Example
 {
-    internal class WashingMachine
+    internal class WashingMachine : Appliance
     {
+        public string Wash()
+        {
+            return "Washing machine is washing clothes.";
+        }
     }
 }
