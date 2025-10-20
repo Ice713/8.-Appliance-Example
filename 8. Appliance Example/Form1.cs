@@ -16,5 +16,16 @@ namespace _8.Appliance_Example
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WashingMachine myWasher  = new WashingMachine();
+
+            string statusMessage = myWasher.TurnOn();
+
+            statusMessage += "\n" + myWasher.Wash();
+
+            MessageBox.Show(statusMessage, "Appliance Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
